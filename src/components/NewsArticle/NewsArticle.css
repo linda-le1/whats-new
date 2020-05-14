@@ -1,0 +1,11 @@
+.news-article {
+    background-color: silver;
+    height: 50%;
+    width: 30%;
+    margin: 10px;
+}
+
+.news-image {
+    height: 90%;
+    width: 80%;
+}
