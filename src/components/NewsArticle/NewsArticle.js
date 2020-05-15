@@ -14,4 +14,4 @@ const NewsArticle = (props) => {
     )
 }
 
-export default NewsArticle;
+export default NewsArticle

@@ -1,6 +1,12 @@
-import React from 'react';
+import React from 'react'
 import './Menu.css'
 
-// MENU COMPONENT CODE GOES HERE
+const Menu = ({filterArticleCategory}) => {
+    return (
+        <div className='menu-nav'>
+            <button className='menu-button' name='local' onClick={filterArticleCategory}> Local </button>
+        </div>
+    )
+}
 
-export default Menu;
+export default Menu

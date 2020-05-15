@@ -1,6 +1,6 @@
-import React from 'react';
+import React from 'react'
 import './NewsContainer.css'
-import NewsArticle from '../NewsArticle/NewsArticle';
+import NewsArticle from '../NewsArticle/NewsArticle'
 
 const NewsContainer =(props) => {
     const newsToDisplay = props.news.map(article => < NewsArticle key={article.id} img={article.img} headline={article.headline} description={article.description} url={article.url}/>)
@@ -12,4 +12,4 @@ const NewsContainer =(props) => {
     )
 }
 
-export default NewsContainer;
+export default NewsContainer
