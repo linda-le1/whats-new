@@ -1,0 +1,9 @@
+.menu-nav {
+    display: flex;
+    flex-direction: column;
+    width: 75%;
+}
+
+.menu-button {
+    width: 50%;
+}
