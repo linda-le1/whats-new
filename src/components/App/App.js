@@ -23,9 +23,9 @@ class App extends Component {
     }
   }
 
-  filterArticleCategory= (event) => {
+  filterArticleCategory = (event) => {
     this.setState({
-      articleToDisplay: event.target.name
+      articleToDisplay: event.target.value
     })
   }
 
